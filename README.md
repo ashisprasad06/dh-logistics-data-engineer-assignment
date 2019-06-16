@@ -3,7 +3,7 @@
 
 I. Pre-Requistes
 ------------
-1. Code requires minimum 8 GB of RAM for execution. If you are running on make sure you are running over 8 GB RAM for smooth execution of the process. If you are running on AWS make sure you run it m4.large or above.
+1. Code requires minimum 8 GB of RAM for execution. If you are running on make sure you are running over 8 GB RAM for smooth execution of the process. If you are running on AWS make sure you run it t2.large/m4.large or above.
 
 2. The code has been built on python, so it assumes that the machine on which we are running the code must have python. Code has Error Handling present which will exit the sript, if it does not find python on the machine.
 
@@ -54,4 +54,4 @@ __________________________________
 
 #3. Verify the file in Output Directory
 
-	cat ./dh-logistics-data-engineer-assignment/*
+	cat ./dh-logistics-data-engineer-assignment/Output/*
