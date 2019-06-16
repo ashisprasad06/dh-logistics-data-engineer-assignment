@@ -129,9 +129,6 @@ echo "--------------------------------------------------------------------------
 echo "Removing Input file"
 rm $Input_Dir/*
 
-echo "Removing Dependency Files from Code Directory"
-cd $Code_Dir
-rm -rf !(CommonFunctions.py|MainFunction.py|ParameterFilesandValue.py)
 
 
 
