@@ -1,0 +1,11 @@
+export Project_Dir=$parent_path
+export Input_Dir="$Project_Dir/Input"
+export Input_file_name="yellow_tripdata_2018-01.csv"
+export Input_File_Download_Link="https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2018-01.csv"
+export Ref_Dir="$Project_Dir/Reference"
+export Ref_file_name="taxi+_zone_lookup.csv"
+export Ref_File_Download_Link="https://s3.amazonaws.com/nyc-tlc/misc/taxi+_zone_lookup.csv"
+export Code_dir="$Project_Dir/Code"
+export Output_dir="$Project_Dir/Output"
+export Output_File_TopTipping_Zone="top_tipping_zones.csv" 
+export Output_File_LongTripPerDay="longest_trips_per_day.csv"
